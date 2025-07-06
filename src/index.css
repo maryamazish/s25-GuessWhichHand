@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto";
+  background: #fefe;
+  padding: 12px;
+}
+
+.card {
+  margin: 20px auto;
+  width: 70%;
+  background: white;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.card.card--shadow {
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.484);
+}
+.card.card--outline {
+  border: solid 1px rgba(0, 0, 0, 0.484);
+}
+
+.ready{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button{
+  border-radius: 10px;
+  border: 1px black solid;
+  width: 100px;
+  height: 50px;
+}
+
+.sort-hands{
+  display: inline-block;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+}
