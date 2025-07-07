@@ -75,7 +75,7 @@ const Games = () => {
       );
     } else {
       returnResult = (
-        <Card variant="shadow">
+        <Card variant="shadow ready">
           {!finalResult ? (
             <GenerateHands
               handCount={handCount}
