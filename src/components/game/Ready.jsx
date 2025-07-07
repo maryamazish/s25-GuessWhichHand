@@ -4,7 +4,7 @@ import Button from "../general/button";
 
 
 const Ready = ({ onReady , name}) => {
-  const logo = "../../../public/images/Logo.png";
+  const logo = "/images/logo.png";
   return (
     <>
       <Title text="Guess which hand" />

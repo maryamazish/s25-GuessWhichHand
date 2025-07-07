@@ -3,12 +3,12 @@ import Image from "../general/image";
 const GenerateHands = ({ handCount, onCheckGoal, handAction, goal }) => {
 
   const path = {
-    leftHandClose: "../../../public/images/leftHand-close.JPG",
-    rightHandClose: "../../../public/images/rightHand-close.JPG",
-    leftHandOpen: "../../../public/images/leftHand-open.JPG",
-    rightHandOpen: "../../../public/images/rightHand-open.JPG",
-    leftHandOpenTarget: "../../../public/images/leftHand-open-target.JPG",
-    rightHandOpenTarget: "../../../public/images/righHand-open-target.JPG",
+    leftHandClose: "/images/leftHand-close.JPG",
+    rightHandClose: "/images/rightHand-close.JPG",
+    leftHandOpen: "/images/leftHand-open.JPG",
+    rightHandOpen: "/images/rightHand-open.JPG",
+    leftHandOpenTarget: "/images/leftHand-open-target.JPG",
+    rightHandOpenTarget: "/images/righHand-open-target.JPG",
   };
 
   const hands = [];
